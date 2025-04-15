@@ -1,5 +1,5 @@
-#Basic While Loops Questions
-#1. Print 1 to 10 using while loop. 
+# Basic While Loops Questions
+# 1. Print 1 to 10 using while loop. 
 
 i = 0
 while i < 10:
@@ -70,23 +70,23 @@ while i >= 1:
     print(i)
 
 # Count the number of digits in an input number.
-# Take input from user
-num = int(input("Enter a number: "))
+# # Take input from user
+# num = int(input("Enter a number: "))
 
-# Initialize a counter
-count = 0
+# # Initialize a counter
+# count = 0
 
-# If the number is 0, it has 1 digit
-if num == 0:
-    count = 1
-else:
-    # Make number positive (to handle negative input)
-    num = abs(num)
+# # If the number is 0, it has 1 digit
+# if num == 0:
+#     count = 1
+# else:
+#     # Make number positive (to handle negative input)
+#     num = abs(num)
 
-    # Count digits using while loop
-    while num > 0:
-        num //= 10  # Remove the last digit
-        count += 1  # Increase count
+#     # Count digits using while loop
+#     while num > 0:
+#         num //= 10  # Remove the last digit
+#         count += 1  # Increase count
 
-# Print the result
-print("Number of digits is:", count)
+# # Print the result
+# print("Number of digits is:", count)
